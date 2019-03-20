@@ -1,0 +1,341 @@
+*{		
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing:border-box;
+	font-family: "Verdana" ;
+	font-size: 14px;
+}
+
+body{
+	background-color: lightgray;
+}
+
+#formLogin {
+	position:absolute;
+    left:50%;
+    top:50%;
+	width: 900px;
+	height: 200px;
+	margin-left:-450px;
+    margin-top:-200px;
+}
+
+#formLogin fieldset {
+	padding-top: 10px;
+	padding-left: 20px;
+	width: 300px;
+	height: 150px;
+	margin: auto;
+	border: solid 1px #000;
+	border-color: yellowgreen;
+	margin-top: 10px;
+}
+
+#formularioLogin{
+	margin: auto;
+}
+
+#loginBanner {
+	background-image: url("../img/logoHorizontalExtenso.png");
+	background-color: transparent;
+	background-size: 100% 90%;
+	background-repeat: no-repeat;
+	margin: 0 auto;
+	height: 100px;
+	width: 400px;
+}
+
+/* form:#formLogar {
+	action="AutenticarUsuario";
+} */
+
+#login{
+	width: 100%;
+	height: 100px;
+	border-color:solid 1px black; 
+}
+
+label {
+	position: relative;
+	margin: auto;
+	display: inline-block;
+	font-size: 0.9em;
+	font-weight: bold;
+}
+
+.labelLogin {
+	width: 55px;
+}
+
+input, textarea {
+	display: inline-block;
+	width: 200px;
+}
+
+#checkbox{
+	width: 15px;
+}
+
+input:focus {
+	border-color: tomato;
+	box-shadow: 0 0 5px #35861B;
+	outline: none;
+}
+
+#botaoLogar {
+	width: 70px;
+	float: right;
+	margin-right: 15px;
+}
+
+#tabela {
+	left: 35%;
+	margin: 0 auto;
+	width: 750px;
+}
+
+th{
+	background:lightgray;
+}
+
+#tabela  table{
+	width:750px;
+	height:100px;
+	border: 1px solid black;
+	border-collapse: collapse;
+	margin-top:50px;
+}
+
+#coluna1{
+	width:150px;
+}
+
+#coluna2{
+	width:150px;
+}
+
+#coluna3{
+	width:150px;
+}
+
+#coluna4{
+	width:150px;
+}
+
+#coluna5{
+	width:150px;
+}
+
+.iconeEditar, .iconeVisualizar, .iconeDeletar{
+    height: 15px;
+    width: 15px;
+    margin: auto;
+}
+
+.iconeEditar{
+    background: url("../img/botaoEditar.png") no-repeat;
+}
+
+.iconeVisualizar{
+    background: url("../img/botaoVisualizar.png") no-repeat;
+}
+
+.iconeDeletar{
+    background: url("../img/botaoDeletar.png") no-repeat;
+}
+
+.colunaEditar{
+	background-color: rgba(139, 137, 137, .0);
+    height: 30px;
+    text-align: right;
+}
+
+.divColunaEditar ul{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    height: auto;
+}
+
+.divColunaEditar ul li{
+    display: inline;
+}
+
+.divColunaEditar ul li a{
+    margin-top:5px;
+    margin-right: 5px;
+    width: auto;
+    display: inline-block;
+    /*visual do link*/
+    text-decoration: none;
+}
+
+#all {
+	margin: 0 auto;
+	width: 1000px;
+}
+
+#header {
+	background-image: url("../img/bannerHeader.png");
+	background-color: white;
+	background-size: 90% 100%;
+	background-repeat: no-repeat;
+	height: 100px;
+	width: 100%;
+	border: solid 1px;
+}
+
+#main {
+	min-height: 500px;
+	width: 100%;
+	padding-top: 20px;
+	background-color: white;
+	border-left: solid 1px;
+	border-right: solid 1px;
+}
+
+footer {
+	margin-top: -10px;
+	background-color: yellowgreen;	
+	height: 50px;
+	width: 100%;
+	border: solid 1px;
+}
+
+#divForm{
+	margin: 0 auto;
+	width: 400px;
+	height: 200px;
+} 
+
+#formCadastroSetor{
+	padding-top: 30px;
+	padding-left: 15px;
+}
+
+#formCadastroServidor{
+	padding-top: 30px;
+	padding-left: 15px;
+}
+
+.labelFormularioSetor {
+	width: 100px;
+	margin-left: 0;
+    webkit-border-bottom-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    webkit-border-top-left-radius: 4px;
+    border-top-left-radius: 4px;
+    moz-border-radius-bottomleft: 4px;
+    moz-border-radius-topleft: 4px;
+	font-size: 14px;
+	position: relative;
+    webkit-border-radius: 0;
+    moz-border-radius: 0;
+    border-radius: 0;	
+}
+
+.labelFormularioServidor {
+	width: 115px;
+	margin-left: 0;
+    webkit-border-bottom-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    webkit-border-top-left-radius: 4px;
+    border-top-left-radius: 4px;
+    moz-border-radius-bottomleft: 4px;
+    moz-border-radius-topleft: 4px;
+	font-size: 14px;
+	position: relative;
+    webkit-border-radius: 0;
+    moz-border-radius: 0;
+    border-radius: 0;	
+}
+
+.tresbotoes{
+	width: 100px;	
+}
+
+.submit {
+	text-align:center;
+}
+
+#labelDescricao{
+	margin-top: 0;
+	vertical-align: top;
+}
+
+textarea{
+	resize: none;
+}
+
+nav{
+	border-right: solid 1px;
+	border-left: solid 1px;
+	border-bottom: solid 1px;
+	background-color: yellowgreen;
+	width: 100%;
+	height:25px;
+}
+
+.menu{
+	margin: 0; 
+	padding: 0;
+	list-style: none;	
+	float:left;
+}
+
+.menu li{
+	width: 100px;
+	height: 25px;
+	position:relative;
+	float: left;
+	text-align: center;
+}
+
+.menu li a{
+	color:#333; 
+	text-decoration:nome; 
+	padding:5px 10px; 
+	display:block;
+}
+
+.menu li a:hover{
+	background-color: yellowgreen;
+	color: #fff;
+	-moz-box-shadow:0 3px 10px 0 #CCC;
+	-webkit-box-shadow:0 3px 10px 0 #ccc;
+	text-shadow:0px 0px 5px #fff;
+}
+
+.menu li ul{
+	margin: 0; padding: 0;
+	position:absolute;
+	top:25px;
+	left: 0;
+	background-color:#fff;
+	display:none;
+}
+
+.menu li:hover ul, .menu li.over ul{
+	display:block;
+}
+
+.menu li ul li{
+	border:1px solid #c0c0c0;
+	display: block;
+	width: 100px;
+}
+
+#formListaSetor{
+	padding-left: 20px;
+}
+
+#botaoListaSetor{
+	margin-left: 15px;
+	width: 75px;
+}
+
+.radioButton {
+	width: 20px;
+	margin: 0;
+}
